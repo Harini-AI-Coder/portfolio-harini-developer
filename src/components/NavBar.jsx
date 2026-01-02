@@ -16,7 +16,7 @@ export default function NavBar(){
           <Button component={RouterLink} to="/about" color="inherit" sx={{fontFamily: 'system-ui', ":hover":{backgroundColor:'#00d1ff', color:'#071c22'}}}>About</Button>
           <Button component={RouterLink} to="/services" color="inherit" sx={{fontFamily: 'system-ui', ":hover":{backgroundColor:'#00d1ff', color:'#071c22'}}}>Services</Button>
           <Button component={RouterLink} to="/skills" color="inherit" sx={{fontFamily: 'system-ui', ":hover":{backgroundColor:'#00d1ff', color:'#071c22'}}}>Skills</Button>
-          <Button component={RouterLink} to="/projects" color="inherit" sx={{fontFamily: 'system-ui', ":hover":{backgroundColor:'#00d1ff', color:'#071c22'}}}>Project</Button>
+          {/* <Button component={RouterLink} to="/projects" color="inherit" sx={{fontFamily: 'system-ui', ":hover":{backgroundColor:'#00d1ff', color:'#071c22'}}}>Project</Button> */}
           <Button component={RouterLink} to="/contact" color="inherit" sx={{fontFamily: 'system-ui', ":hover":{backgroundColor:'#00d1ff', color:'#071c22'}}}>Contact</Button>
         </Box>
       </Toolbar>
