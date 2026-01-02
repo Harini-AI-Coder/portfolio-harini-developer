@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
 import Skills from './pages/Skills'
-import Projects from './pages/Projects'
+// import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import { Box } from '@mui/material'
 
@@ -27,7 +27,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Box>
